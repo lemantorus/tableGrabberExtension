@@ -225,7 +225,7 @@ function mainInit(){
                 }
             });
         } else {
-            alert('No tab');
+            secondInit();
         }
     });
 }

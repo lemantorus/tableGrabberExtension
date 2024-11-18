@@ -1,11 +1,14 @@
 {
-    "name": "Image Grabber",
-    "description": "Extract all images from current web page",
+    "name": "Table Grabber",
+    "description": "Extract and export tables on the page to Word/Excel and JSON.",
     "version": "1.0",
     "manifest_version": 3,
-    "icons": {},
+    "icons": {
+        "16":"icons/icon16.png"
+    },
     "action": {
-        "default_popup":"popup.html"
+        "default_popup":"popup.html",
+        "default_icon":"icons/icon16.png"
     },
     "permissions": ["scripting", "activeTab"],
     
